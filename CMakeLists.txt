@@ -1,5 +1,5 @@
 cmake_minimum_required (VERSION 2.6)
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O2 -std=c++14 -fPIC")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++11")
 project (ChipGL)
 
 add_executable(chipgl src/chipgl.cpp)

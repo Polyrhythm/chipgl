@@ -4,6 +4,7 @@
 #include <vector>
 #include <sys/stat.h>
 #include <errno.h>
+#include <stdlib.h>
 
 #include "filewatcher.h"
 
